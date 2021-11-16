@@ -20,8 +20,7 @@ Welcome to my portfolio highlighting my technical skills as a software developer
 
 
 ## Deployed Live
-
-
+https://winterkanda.github.io/my-portfolio/
 
 
 &nbsp;
