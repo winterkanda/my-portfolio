@@ -1,6 +1,191 @@
+
+body {
+    min-width: 400px;
+}
+
 header {
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
     background-image: url("https://images.unsplash.com/photo-1459695452562-46cc57bef5f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40%;
+    position: relative;
 }
+
+.header-content > h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-family: cursive;
+}
+
+.header-content > h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: gray;
+}
+
+header > div {
+    /* position: fixed; */
+    /* top: 30%;
+    left: 50%;
+    transform: translateX(-50%); */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+nav {
+    border: 1px solid black;
+    border-radius: 20px;
+    /* width: 90%; */
+    padding: 5px 10px;
+    text-align: center;
+    border-color: white;
+
+}
+
+.my-nav-link {
+    text-decoration: none;
+    margin: 0 5px;
+    color: black;
+}
+
+.my-nav-icons {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.icons {
+    /* font-size: 30px; */
+    color: black;
+}
+
+
+section {
+    padding: 98px;
+    margin-top: 100px;
+}
+
+section > h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.about-bio {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+
+}
+
+.about-bio > p {
+    margin-top: 50px;
+}
+
+.about-img {
+    width: 100%;
+}
+
+#contact {
+    background-image: url("./images/contact.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+    position: relative;
+
+}
+
+.contact-details {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    font-size: 26px;
+    transform: translateX(-50%);
+
+
+}
+
+.contact-details > a {
+    margin: 0 5px;
+}
+
+.contact-details > h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#card {
+    margin: 10px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    header {
+        padding-top: 15%;
+    }
+
+    .header-content > h1 {
+        font-size: 70px;
+    }
+
+    section {
+        padding: 20px 100px;
+    }
+
+    .about-bio > p {
+        margin-top: 0;
+        font-size: 22px;
+    }
+
+    .contact-details {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        font-size: 70px;
+        transform: translateX(-50%);
+    
+    }
+
+    .contact-details > a {
+        margin: 0 20px;
+    }
+    
+
+    /* #card {
+        width: 400px;
+    } */
+
+    /* nav 
+        
+    } */
+}
+
+@media only screen and (min-width: 992px) {
+
+
+    .about-bio > p {
+        line-height: 2;
+    }
+
+    /* #card {
+        width: 400px;
+    } */
+
+    /* nav 
+        
+    } */
+}
+
+
